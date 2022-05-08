@@ -382,4 +382,3 @@ warn('xd')
 bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 bin.Name
 
-end
