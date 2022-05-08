@@ -384,10 +384,10 @@ bin.Name = "Teleport"
 
 function teleportPlayer(pos)
 
-local player = game.Players.LocalPlayer
+player = game.Players.LocalPlayer
 if player == nil or player.Character == nil then return end
 
-local char = player.Character
+char = player.Character
 
 char:MoveTo(pos)
 
@@ -398,9 +398,9 @@ function onButton1Down(mouse)
 if not enabled then
 return
 
-local player = game.Players.LocalPlayer
+player = game.Players.LocalPlayer
 if player == nil then return end
-local cf = mouse.Hit
+cf = mouse.Hit
 teleportPlayer(cf.p)
 
 
