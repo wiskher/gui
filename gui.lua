@@ -383,26 +383,6 @@ bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 bin.Name
 
 
-player = game.Players.LocalPlayer
-if player = nil or player.Character == nil then return end
-
-char.player.Character
-
-char:MoveTo(pos)
-
-
-
-enabled = true
-function onButton1Down(mouse)
-if not enabled then
-return
-
-player = game.Players.LocalPlayer
-if player = nil then return end
-cf.mouse.Hit
-teleportPlayer(cf.p)
-
-
 function onSelected(mouse)
 mouse.Button1Down:connect(function() onButton1Down(mouse) end)
 
