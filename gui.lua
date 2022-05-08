@@ -382,10 +382,4 @@ warn('xd')
 bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 bin.Name
 
-
-function onSelected(mouse)
-mouse.Button1Down:connect(function() onButton1Down(mouse) end)
-
-bin.Selected:connect(onSelected)
-
 end
