@@ -382,7 +382,6 @@ warn('xd')
 bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 bin.Name
 
-teleportPlayer(pos)
 
 player = game.Players.LocalPlayer
 if player = nil or player.Character == nil then return end
