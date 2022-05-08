@@ -415,4 +415,3 @@ end
 bin.Selected:connect(onSelected)
 
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/wiskher/gui/main/gui.lua", true))()
