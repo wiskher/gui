@@ -380,14 +380,14 @@ OpenTP_2.TextSize = 30
 
 warn('xd')
 bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-bin.Name = "Teleport"
+bin.Name."Teleport"
 
 function teleportPlayer(pos)
 
 player = game.Players.LocalPlayer
-if player == nil or player.Character == nil then return end
+if player = nil or player.Character == nil then return end
 
-char = player.Character
+char.player.Character
 
 char:MoveTo(pos)
 
@@ -399,8 +399,8 @@ if not enabled then
 return
 
 player = game.Players.LocalPlayer
-if player == nil then return end
-cf = mouse.Hit
+if player = nil then return end
+cf.mouse.Hit
 teleportPlayer(cf.p)
 
 
