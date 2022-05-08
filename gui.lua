@@ -378,7 +378,6 @@ OpenTP_2.Text = "Click to TP"
 OpenTP_2.TextColor3 = Color3.new(1, 1, 1)
 OpenTP_2.TextSize = 30
 
-OpenTP_2.MouseButton1Down:connect(function()
 warn('xd')
 bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
 bin.Name = "Teleport"
